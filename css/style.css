@@ -1,13 +1,13 @@
             /*css reset*/
             
             * {
-                margin: 0;
-                padding: 0;
+                margin: 10;
+                padding: 10;
             }
             /*CSS Variables*/
             
              :root {
-                --navbar-height: 49px;
+                --navbar-height: 39px;
             }
             /*navigation bar*/
             
