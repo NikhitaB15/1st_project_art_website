@@ -1,102 +1,127 @@
-        /*css reset*/
-        
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        /*CSS Variables*/
-        
-         :root {
-            --navbar-height: 49px;
-        }
-        /*navigation bar*/
-        
-        #Navbar {
-            display: flex;
-            align-items: center;
-        }
-        /* navigation bar :logo and Image*/
-        
-        #logo {
-            margin: 24px 24px;
-        }
-        
-        #logo img {
-            height: 59px;
-            width: 45px;
-            margin: 1px 2px;
-        }
-        /* navigation bar :LIST styling*/
-        
-        #Navbar {
-            position: relative;
-        }
-        
-        #Navbar ul {
-            display: flex;
-        }
-        
-        #Navbar ::before {
-            content: "";
-            background-color: black;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            height: 100%;
-            width: 100%;
-            z-index: -1;
-            opacity: 0.4;
-        }
-        
-        #Navbar ul li {
-            list-style: none;
-            font-size: 1.3rem;
-        }
-        
-        #Navbar ul li a {
-            color: white;
-            display: block;
-            padding: 3px 22px;
-            border-radius: 20px;
-            text-decoration: none;
-        }
-        
-        #Navbar ul li a:hover {
-            color: rgb(0, 0, 0);
-            background-color: whitesmoke;
-            opacity: 0.9;
-        }
-        /*Home section*/
-        
-        #home {
-            display: flex;
-            flex-direction: column;
-            padding: 9px 200px;
-            height: 400px;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #home::before {
-            content: "";
-            background: url('../images/art1.png') no-repeat center center/cover;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            height: 100%;
-            width: 100%;
-            z-index: -1;
-            opacity: 0.87;
-        }
-        
-        #home h1 {
-            color: rgb(2, 31, 56);
-            text-align: center;
-        }
+            /*css reset*/
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            /*CSS Variables*/
+            
+             :root {
+                --navbar-height: 49px;
+            }
+            /*navigation bar*/
+            
+            #Navbar {
+                display: flex;
+                align-items: center;
+            }
+            /* navigation bar :logo and Image*/
+            
+            #logo {
+                margin: 24px 24px;
+            }
+            
+            #logo img {
+                height: 59px;
+                width: 45px;
+                margin: 1px 2px;
+            }
+            /* navigation bar :LIST styling*/
+            
+            #Navbar {
+                position: relative;
+            }
+            
+            #Navbar ul {
+                display: flex;
+                font-family: 'Kdam Thmor Pro', sans-serif;
+            }
+            
+            #Navbar ::before {
+                content: "";
+                background-color: black;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.4;
+            }
+            
+            #Navbar ul li {
+                list-style: none;
+                font-size: 1.3rem;
+            }
+            
+            #Navbar ul li a {
+                color: white;
+                display: block;
+                padding: 3px 22px;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+            
+            #Navbar ul li a:hover {
+                color: rgb(0, 0, 0);
+                background-color: whitesmoke;
+                opacity: 0.9;
+            }
+            /*Home section*/
+            
+            #home {
+                display: flex;
+                flex-direction: column;
+                padding: 9px 200px;
+                height: 400px;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            #home::before {
+                content: "";
+                background: url('../images/art1.png') no-repeat center center/cover;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+                opacity: 0.87;
+            }
+            
+            #home h1 {
+                color: rgb(2, 31, 56);
+                text-align: center;
+                font-family: 'Staatliches', cursive;
+            }
+            
+            #home p {
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 1.5rem;
+                font-family: 'Staatliches', cursive;
+            }
+            /* 
         /*utility classes*/
-        
-        .h-primary {
-            font-size: 2.8 rem;
-            padding: 12px;
-            font-style: oblique;
-        }
+            
+            .h-primary {
+                font-size: 2.8 rem;
+                padding: 12px;
+                font-style: oblique;
+            }
+            
+            .btn {
+                padding: 6px 20px;
+                border: 2px solid white;
+                background-color: aqua;
+                color: white;
+                margin: 17px;
+                border-radius: 7px;
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+            
+            .center {
+                text-align: center;
+            }
